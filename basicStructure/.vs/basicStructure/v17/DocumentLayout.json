@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\njd99\\source\\repos\\C\u002B\u002B\\basicStructure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE11AA4-F9D4-4CBD-A591-FCE148EE890F}|basicStructure\\basicStructure.vcxproj|C:\\Users\\njd99\\source\\repos\\C\u002B\u002B\\basicStructure\\basicStructure\\basicStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDE11AA4-F9D4-4CBD-A591-FCE148EE890F}|basicStructure\\basicStructure.vcxproj|solutionrelative:basicStructure\\basicStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 298,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "basicStructure.cpp",
+              "DocumentMoniker": "C:\\Users\\njd99\\source\\repos\\C\u002B\u002B\\basicStructure\\basicStructure\\basicStructure.cpp",
+              "RelativeDocumentMoniker": "basicStructure\\basicStructure.cpp",
+              "ToolTip": "C:\\Users\\njd99\\source\\repos\\C\u002B\u002B\\basicStructure\\basicStructure\\basicStructure.cpp",
+              "RelativeToolTip": "basicStructure\\basicStructure.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-28T07:05:33.571Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
