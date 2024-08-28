@@ -21,10 +21,10 @@ int main() {
 
 	switch (x) {
 	case 1:
-		cout << x << std::endl;		// x의 값이 1인 경우 1 출력
+		cout << x << std::endl;		// x의 값이 1인 경우 x 값인 1 출력
 		break;
 	case 2:
-		cout << y << std::endl;		// x의 값이 2인 경우 2 출력
+		cout << y << std::endl;		// x의 값이 2인 경우 x 값인 2 출력
 		break;
 	default:
 		cout << "Z" << std::endl;	// 1혹은 2가 아닌 경우 Z을 출력
