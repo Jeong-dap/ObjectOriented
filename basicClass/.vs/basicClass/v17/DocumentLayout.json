@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\njd99\\source\\repos\\C\u002B\u002B\\basicClass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C64A9FFC-969E-464D-AC0A-BEC09276858E}|basicClass\\basicClass.vcxproj|C:\\Users\\njd99\\source\\repos\\C\u002B\u002B\\basicClass\\basicClass\\basicClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C64A9FFC-969E-464D-AC0A-BEC09276858E}|basicClass\\basicClass.vcxproj|solutionrelative:basicClass\\basicClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 298,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "basicClass.cpp",
+              "DocumentMoniker": "C:\\Users\\njd99\\source\\repos\\C\u002B\u002B\\basicClass\\basicClass\\basicClass.cpp",
+              "RelativeDocumentMoniker": "basicClass\\basicClass.cpp",
+              "ToolTip": "C:\\Users\\njd99\\source\\repos\\C\u002B\u002B\\basicClass\\basicClass\\basicClass.cpp",
+              "RelativeToolTip": "basicClass\\basicClass.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-28T07:18:29.681Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
