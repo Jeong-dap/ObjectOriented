@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\njd99\source\repos\C++\C++Remind\C++Remind\main.cpp(8,7): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+  C++Remind.vcxproj -> C:\Users\njd99\source\repos\C++\C++Remind\x64\Debug\C++Remind.exe
