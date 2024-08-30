@@ -110,7 +110,9 @@ listNode* serachNode(linkedList_h* L, char* x) {
 }
 
 int main() {
+	// 메인문 어떻게 짜야돼 ㅅㅂ
 	linkedList_h* L;
 	listNode* p;
 	L = createLinkedList_h();
+
 }
