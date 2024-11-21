@@ -1,0 +1,15 @@
+﻿  2022039033_남정대_객체지향.cpp
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(54,7): warning C4101: 'q' :참조되지 않은 지역 변수입니다.
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(72,7): warning C4101: 'p' :참조되지 않은 지역 변수입니다.
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(316,12): warning C4101: 'B' :참조되지 않은 지역 변수입니다.
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(316,15): warning C4101: 'C' :참조되지 않은 지역 변수입니다.
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(932,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(1015,13): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(1031,13): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(1202,16): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(1203,16): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\Week_1\2022039033_남정대_객체지향.cpp(1402,6): warning C4101: 'pizza_radius' :참조되지 않은 지역 변수입니다.
+2022039033_남정대_객체지향.obj : error LNK2019: "public: __cdecl ggi::ggi(char *,int)" (??0ggi@@QEAA@PEADH@Z)main 함수에서 참조되는 확인할 수 없는 외부 기호
+2022039033_남정대_객체지향.obj : error LNK2019: "public: __cdecl ggi::~ggi(void)" (??1ggi@@QEAA@XZ)main 함수에서 참조되는 확인할 수 없는 외부 기호
+2022039033_남정대_객체지향.obj : error LNK2019: "public: void __cdecl ggi::set(char *,int)" (?set@ggi@@QEAAXPEADH@Z)main 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\njd99\source\repos\객지프(C++)\Week_1\x64\Debug\Week_1.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.
