@@ -1505,12 +1505,133 @@ public:
 	BBBB(int x) : AAAA(x) { cout << "Constructor B(int x) : " << x << endl; }	//(4)
 	~BBBB() { cout << "Destructor B" << endl; }
 };
-// virtual 가상상속 시험범위 제외
+
 void ex1118_3() {
 	BBBB b;	// (1) (3)
 	BBBB bb(5);	// (2) (4)
 }
 
-void main() {
+class Base {
+public:
+	void f() { cout << "Base::f() called" << endl; }
+};
+class Derived : public Base {
+public:
+	virtual void f() { cout << "Derived::f() called" << endl; }
+};
 
+void ex1121_1() {
+	Derived d, *pDer;
+	pDer = &d;
+	pDer->f(); // Derived::f() 호출
+	Base* pBase;
+	pBase = pDer; // 업캐스팅
+	pBase->f(); // Base::f() 호출
+}
+
+class Shape {
+public:
+	virtual void draw() {
+		cout << "Shape draw" << endl;
+	}
+};
+
+class CIRCLE : public Shape {
+	virtual void draw() {	}
+};
+
+class RECT : public Shape {
+	virtual void draw() {
+		cout << "Rect draw" << endl;
+	}
+};
+
+class LINE : public Shape {
+	virtual void draw() {
+		cout << "Line draw" << endl;
+	}
+};
+
+void paint(Shape* pShape) {
+	pShape->draw();
+}
+
+void ex1121_2() {
+	paint(new CIRCLE);	// up-casting
+	paint(new RECT);
+	paint(new LINE);
+}
+
+void ex1121_3() {
+	CIRCLE C;
+	RECT R;
+	LINE L;
+
+	paint(&C);
+	paint(&R);
+	paint(&L);
+}
+
+class SHAPE {
+	string name;
+public:
+	virtual float getArea() { return 0.0; }
+	void setName(string name) { this->name = name; }
+	string getName() { return name; }
+	// 그 외 필요한 것 추가
+};
+
+class OVAL : public SHAPE {
+	int a, b;
+public:
+	OVAL(string name, int a, int b) {
+		setName(name);
+		this->a = a;
+		this->b = b;
+	}
+	virtual float getArea() { return a * b * 3.14; }
+};
+
+class TRIANG : public SHAPE {
+	int a, b;
+public:
+	TRIANG(string name, int a, int b) {
+		setName(name);
+		this->a = a;
+		this->b = b;
+	}
+	float getArea() { return 0.5 * a * b; }
+};
+
+void ex1121_4() {
+	OVAL oval("타원", 10, 20);
+	TRIANG triang("삼각형", 30, 40);
+
+	cout << oval.getName() << " 넓이는 " << oval.getArea() << endl;
+	cout << triang.getName() << " 넓이는 " << triang.getArea() << endl;
+
+	SHAPE* pShape;
+	pShape = &oval;		// upcasting
+	cout << pShape->getName() << " 넓이는 " << pShape->getArea() << endl;
+
+	pShape = &triang;	// upcasting
+	cout << pShape->getName() << " 넓이는 " << pShape->getArea() << endl;
+}
+
+void main() {
+	OVAL* pOval = new OVAL("타원", 10, 20);
+	TRIANG* pTriang = new TRIANG("삼각형", 30, 40);
+
+	cout << pOval->getName() << " 넓이는 " << pOval->getArea() << endl;
+	cout << pTriang->getName() << " 넓이는 " << pTriang->getArea() << endl;
+	
+	SHAPE* pShape;
+	pShape = pOval;		// upcasting
+	cout << pShape->getName() << " 넓이는 " << pShape->getArea() << endl;
+
+	pShape = pTriang;	// upcasting
+	cout << pShape->getName() << " 넓이는 " << pShape->getArea() << endl;
+	
+	delete pOval;
+	delete pTriang;
 }
